@@ -1,0 +1,62 @@
+body.dark-theme {
+    color: $beigeColor;
+    font-weight: 400;
+
+    .header,
+    .section {
+        background: $greyColor;
+    }
+
+    .menu-btn {
+        span {
+            background: $whiteColor;
+        }
+    }
+
+    .navigation__link:hover {
+        background-color: $beigeColor;
+        color: $greyColor;
+    }
+
+    .progress-bar {
+        background: $whiteColor;
+    }
+
+    .section-header {
+        color: $beigeColor;
+        text-shadow: 2px 2px $greyColor, 3px 3px $beigeColor;
+
+        &__decoration {
+            &::before, &::after {
+                background: $beigeColor;
+            }
+
+            & > span {
+                &::before, &::after {
+                    background: $beigeColor;
+                }
+            }
+        }
+    }
+
+    .about-me__item {
+        span::after {
+            background: $beigeColor;
+        }
+    }
+
+    .item-description {
+        &__info::after {
+            background-color: $beigeColor;
+        }
+    }
+
+    .button__show-all {
+        color: $beigeColor;
+
+        &::before {
+            background: $beigeColor;
+        }
+    }
+}
+

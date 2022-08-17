@@ -1,0 +1,20 @@
+<svg id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5eee3;
+      }
+
+      .cls-2 {
+        fill: #383a3c;
+        fill-opacity: 0;
+        stroke: #383a3c;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="80" cy="80" r="80"/>
+  <circle id="Ellipse_6_copy" data-name="Ellipse 6 copy" class="cls-2" cx="80" cy="80" r="75"/>
+  <image id="linkedin_icon" data-name="linkedin icon" x="45" y="42" width="70" height="69" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABFCAYAAAD3upAqAAAC9ElEQVR4nO2bv2sUQRTHv7doY2dSCBKREAnE1sJThCBY5JLaRqPYin20FgvPQhtFrPMDxMIuPyCFdgloFfEqUfAI2OgfkCLyNm9xs7dvb3dm4s5O3gcO7nI3M28+md3ZebPbal+9hhyeA7gCYDL11TaALoCPeQVC40SmPwsAngA4mdPPDr96AOYAfA9ZTJR6v8gjIk9KmikAXwDM/58Q6yERs1ixo6cAvAEwHoqILBF37rZBWZKzcrTh1QeJeQWgZRhBO9RRQ2KmLet47CgWr4j4kLDhQqhibJl0UId3uBDzKzAnMSRmz7KOH45i8QoS89kyoG5gTmJIzCMA+4ble6GunSLu2LpB2X1eMwVJcvKd5f9+FSl3Q15IpmeliwCWShxWvwFc598GS3a6vgNgAsAaC9hLyaAR9RDA6HHIyWTzMeDDY7aGWLzCxQVekKgYgbxDqWlQgu1sTtDPXIlZqFh2u+RJmPI1NyvWXdQpStTPADg/JDPQ5Rn2D8e6UmUmpV0CEvLUMFnVB3Cu4PtVTqBXJblOSjoyzgm1GYukGniW3QTwYNg1GJ1j7lk0NjYkV3zDsF6K5xa/J7nfWLCNFHCiv8P1rRb9kMScsWws7/hOB2LKaQBfHQnJ0uJ6f0qpWZ9npTZv1RwlY7wVNCBHp+uDE/in7B9VzAEj2XOOivlHJ71jomIO8zr5pGIOM5WciFXMIPEGoooZ5BIauohM1j9pRhzWH++sNmnEUBbxBcc8mnm1SqZlyxBfrTdlxPQ4J10EpWU3+F4fW6abMGL6JaQk0KjZctDm5SaIqXpL23sXjfoupm+wI/HORcO+i/lgUMbJJqDvYnbqath3MU4OCxN8F1Pb3rguCQRUjICKEVAxAipGQMUIqBgBFSOgYgRUjICKEVAxAipGQMUIqBgBFSOgYgRUjICKEVAxAipGQMUIqBgBFSMQOXjSfrfgO5uH3W1uArJ9yH6XxNy3qIjuRSl61OWlYQepzLJhTMRbC7FbAJb+Aj/AaUIh2ZqkAAAAAElFTkSuQmCC"/>
+</svg>
