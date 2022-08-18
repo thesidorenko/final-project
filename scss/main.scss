@@ -7,6 +7,7 @@
 @import 'header';
 @import 'darkTheme';
 @import '../vendor/animate.css/animate.css';
+
 * {
     box-sizing: border-box;
 }
@@ -440,7 +441,7 @@ body {
 .portfolio-item {
     flex-basis: 30%;
     background: $whiteColor;
-    font-family: $textFontFamily;
+    font-family: 'Roboto Slab';
     color: $greyColor;
     padding: 5px;
     margin-top: 30px;
@@ -451,21 +452,15 @@ body {
         position: relative;
     }
 
-    &__bottom {
-        position: relative;
-        padding: 30px 0 20px;
-
-        p {
-            margin: 0;
-        }
+    &__icon {
+        width: 14%;
+        position: absolute;
+        bottom: 37px;
+        right: calc(50% - 7%);
     }
 
-    &__icon {
-        width: 15%;
-        position: absolute;
-        left: 50%;
-        top: 0;
-        transform: translate(-50%, -50%);
+    &_hidden {
+        display: none;
     }
 }
 
@@ -503,9 +498,6 @@ body {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    // animation: fadeInRight;
-    // animation-duration: 4s;
-    // visibility: hidden;
 
     img {
         width: 25%;

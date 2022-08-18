@@ -192,6 +192,7 @@ initNews();
 /*
     WOW ANIMATE NEWS
 */
+
 new WOW({
     'animateClass': 'animate__animated',
 }).init();

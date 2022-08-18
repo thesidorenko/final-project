@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-   <div class="preloader">
+   <!-- <div class="preloader">
        <div class="roller">
            <div></div>
            <div></div>
@@ -21,7 +21,7 @@
            <div></div>
            <div></div>
        </div>
-   </div>
+   </div> -->
     <header class="header">
         <div class="container">
             <div class="navigation">
@@ -146,61 +146,20 @@
                 <span></span>
             </div>
             <p class="section-about-me__text">Simplicity is the ultimate sophistication</p>
-            <div class="section-portfolio__filters">
+            <div class="section-portfolio__filters" id="portfolio-filters">
                 <p>Filter by</p>
-                <button>design</button>
-                <button>logo</button>
-                <button>photography</button>
-                <button>poster</button>
-                <button>resources</button>
-                <button>retro</button>
-                <button>t-shirts</button>
-                <button>videos</button>
+                <template>
+                    <button></button>
+                </template>
             </div>
-            <div class="section-portfolio__items">
-                <div class="portfolio-item">
-                    <img src="https://picsum.photos/id/1016/300/300" alt="picture" class="portfolio-item__picture">
-                    <div class="portfolio-item__bottom">
+            <div class="section-portfolio__items" id="portfolio-items">
+                <template>
+                    <div class="portfolio-item">
+                        <img src="" alt="" class="portfolio-item__picture">
                         <img src="images/picture-icon.svg" alt="picture icon" class="portfolio-item__icon">
-                        <p>Galleries are funny</p>
+                        <p class="portfolio-item__name"></p>
                     </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://picsum.photos/id/1018/300/300" alt="picture" class="portfolio-item__picture">
-                    <div class="portfolio-item__bottom">
-                        <img src="images/tv-icon.svg" alt="tv icon" class="portfolio-item__icon">
-                        <p>A vimeo reel</p>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://picsum.photos/id/1019/300/300" alt="picture" class="portfolio-item__picture">
-                    <div class="portfolio-item__bottom">
-                        <img src="images/music-icon.svg" alt="music icon" class="portfolio-item__icon">
-                        <p>Love for old camera</p>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://picsum.photos/id/1023/300/300" alt="picture" class="portfolio-item__picture">
-                    <div class="portfolio-item__bottom">
-                        <img src="images/note-icon.svg" alt="note icon" class="portfolio-item__icon">
-                        <p>Detaild project page</p>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://picsum.photos/id/1026/300/300" alt="picture" class="portfolio-item__picture">
-                    <div class="portfolio-item__bottom">
-                        <img src="images/tv-icon.svg" alt="tv icon" class="portfolio-item__icon">
-                        <p>Youtube video</p>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://picsum.photos/id/1029/300/300" alt="picture" class="portfolio-item__picture">
-                    <div class="portfolio-item__bottom">
-                        <img src="images/clip-icon.svg" alt="clip icon" class="portfolio-item__icon">
-                        <p>Another extetnal link</p>
-                    </div>
-                </div>
-
+                </template>
             </div>
             <button class="button__show-all">Browse all</button>
         </div>
@@ -291,6 +250,7 @@
     <script src="js/wow.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="vendor/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/portfolioModule.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
